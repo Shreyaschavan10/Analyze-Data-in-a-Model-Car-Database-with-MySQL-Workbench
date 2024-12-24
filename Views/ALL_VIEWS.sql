@@ -57,7 +57,9 @@ LEFT JOIN
     customers c ON e.employeeNumber = c.salesRepEmployeeNumber; 
          
          
-         
+         -- Creates a view combining relevant data from a cluster of interelated tables including: Products, Order Details, Orders, and Warehouses
+-- The query displays data for all products carried by the Mint Classics Company regardless of corresponding data from Order Details, Orders, or Warehouses
+-- This approach allows for the aggregation of data across multiple dimensions for assessing product profitability and warehousing storage dynamics
          
          CREATE OR REPLACE VIEW products_view AS
 SELECT p.productCode,
