@@ -139,7 +139,9 @@ quartiles AS (
 -- Outlier Detection - Detect outliers for the products distribution over 3 different dimensions by calculating their interquartile ranges and establishing upper and lower bounds for each
 -- Filtered for completed orders ('Shipped', 'Resolved', 'Disputed')
 
-WITH products_ordered_sales AS (            -- 1. Create table that calculates each products total orders and total sales for all completed orders
+-- 1. Create table that calculates each products total orders and total sales for all completed orders
+
+WITH products_ordered_sales AS (            
     SELECT
         productCode,
         productName,
