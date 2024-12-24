@@ -1,4 +1,4 @@
-#**Analyzing Data in a Model Car Database with MySQL Workbench <br>
+#Analyzing Data in a Model Car Database with MySQL Workbench <br>
 This project provides an in-depth analysis of the Mint Classics Company's database, focusing on inventory management, customer behavior, and sales performance. The analysis is built upon a relational database provided by the Coursera Project Network, containing nine tables that represent various aspects of the company's operations. The SQL queries and views created during the project offer insights to help Mint Classics optimize its operations and make informed business decisions.
 
 Project Overview
