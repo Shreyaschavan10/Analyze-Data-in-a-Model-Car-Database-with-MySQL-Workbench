@@ -47,7 +47,7 @@ This folder contains SQL scripts that create views combining data from multiple 
 * SQL script creating a view that combines data from products, warehouses, and order details.
 
 
-3. **mintclassicsmodel.mwb** <br>
+3. **Mint_classic_DB_Model.mwb** <br>
 A MySQL Workbench model file, which includes the database schema and an Extended Entity Relationship (EER) diagram.
 
 5. **README.md** <br>
